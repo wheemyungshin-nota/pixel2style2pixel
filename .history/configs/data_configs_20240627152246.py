@@ -40,7 +40,7 @@ DATASETS = {
 	},
 	
 	'zigbang_beta_all': {
-		'transforms': transforms_config.ZigbangTransforms,
+		'transforms': transforms_config.SketchToImageTransforms,
 		'train_source_root': dataset_paths['zigbang_beta_all_rgb'],
 		'train_target_root': dataset_paths['zigbang_beta_all_ir'],
 		'test_source_root': dataset_paths['zigbang_beta_500_rgb'],
