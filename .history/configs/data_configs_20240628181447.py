@@ -53,7 +53,7 @@ DATASETS = {
 	'zigbang_alpha_train': {
 		'transforms': transforms_config.ZigbangTransforms,
 		'train_source_root': dataset_paths['zigbang_alpha_300to900_rgb'],
-		'train_target_root': dataset_paths['zigbang_alpha_300to900_ir'],
+		'train_target_root': dataset_paths['zigbang_alpha_all_ir'],
 		'test_source_root': dataset_paths['zigbang_alpha_zigzag_rgb'],
 		'test_target_root': dataset_paths['zigbang_alpha_zigzag_ir'],
 	},
@@ -84,5 +84,21 @@ DATASETS = {
 		'train_target_root': dataset_paths['zigbang_alpha_900_ir'],
 		'test_source_root': dataset_paths['zigbang_alpha_zigzag_rgb'],
 		'test_target_root': dataset_paths['zigbang_alpha_zigzag_ir'],
+	},
+
+	
+	'zigbang_with_margin_beta_all': {
+		'transforms': transforms_config.ZigbangTransforms,
+		'train_source_root': dataset_paths['zigbang_with_margin_beta_all_rgb'],
+		'train_target_root': dataset_paths['zigbang_with_margin_beta_all_ir'],
+		'test_source_root': dataset_paths['zigbang_with_margin_beta_500_rgb'],
+		'test_target_root': dataset_paths['zigbang_with_margin_beta_500_ir'],
+	},
+	'zigbang_with_margin_alpha_500': {
+		'transforms': transforms_config.ZigbangTransforms,
+		'train_source_root': dataset_paths['zigbang_with_margin_alpha_500_rgb'],
+		'train_target_root': dataset_paths['zigbang_with_margin_alpha_500_ir'],
+		'test_source_root': dataset_paths['zigbang_with_margin_alpha_zigzag_rgb'],
+		'test_target_root': dataset_paths['zigbang_with_margin_alpha_zigzag_ir'],
 	},
 }

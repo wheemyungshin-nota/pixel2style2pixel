@@ -1,7 +1,7 @@
 from configs import transforms_config
 from configs.paths_config import dataset_paths
 
-'''
+
 DATASETS = {
 	'ffhq_encode': {
 		'transforms': transforms_config.EncodeTransforms,
@@ -38,22 +38,18 @@ DATASETS = {
 		'test_source_root': dataset_paths['celeba_test'],
 		'test_target_root': dataset_paths['celeba_test'],
 	},
-}
-'''
 	
-	
-DATASETS = {
 	'zigbang_beta_train': {
 		'transforms': transforms_config.ZigbangTransforms,
-		'train_source_root': dataset_paths['zigbang_beta_400600_rgb'],
-		'train_target_root': dataset_paths['zigbang_beta_400600_ir'],
+		'train_source_root': dataset_paths['zigbang_beta_all_rgb'],
+		'train_target_root': dataset_paths['zigbang_beta_all_ir'],
 		'test_source_root': dataset_paths['zigbang_beta_500_rgb'],
 		'test_target_root': dataset_paths['zigbang_beta_500_ir'],
 	},
-	'zigbang_alpha_train': {
+	'zigbang_alpha_all': {
 		'transforms': transforms_config.ZigbangTransforms,
-		'train_source_root': dataset_paths['zigbang_alpha_300to900_rgb'],
-		'train_target_root': dataset_paths['zigbang_alpha_300to900_ir'],
+		'train_source_root': dataset_paths['zigbang_alpha_all_rgb'],
+		'train_target_root': dataset_paths['zigbang_alpha_all_ir'],
 		'test_source_root': dataset_paths['zigbang_alpha_zigzag_rgb'],
 		'test_target_root': dataset_paths['zigbang_alpha_zigzag_ir'],
 	},
@@ -84,5 +80,21 @@ DATASETS = {
 		'train_target_root': dataset_paths['zigbang_alpha_900_ir'],
 		'test_source_root': dataset_paths['zigbang_alpha_zigzag_rgb'],
 		'test_target_root': dataset_paths['zigbang_alpha_zigzag_ir'],
+	},
+
+	
+	'zigbang_with_margin_beta_all': {
+		'transforms': transforms_config.ZigbangTransforms,
+		'train_source_root': dataset_paths['zigbang_with_margin_beta_all_rgb'],
+		'train_target_root': dataset_paths['zigbang_with_margin_beta_all_ir'],
+		'test_source_root': dataset_paths['zigbang_with_margin_beta_500_rgb'],
+		'test_target_root': dataset_paths['zigbang_with_margin_beta_500_ir'],
+	},
+	'zigbang_with_margin_alpha_500': {
+		'transforms': transforms_config.ZigbangTransforms,
+		'train_source_root': dataset_paths['zigbang_with_margin_alpha_500_rgb'],
+		'train_target_root': dataset_paths['zigbang_with_margin_alpha_500_ir'],
+		'test_source_root': dataset_paths['zigbang_with_margin_alpha_zigzag_rgb'],
+		'test_target_root': dataset_paths['zigbang_with_margin_alpha_zigzag_ir'],
 	},
 }

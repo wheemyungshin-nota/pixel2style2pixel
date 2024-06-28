@@ -26,11 +26,11 @@ dataset_paths = {
 	'zigbang_alpha_700_ir': '../../data/zigbang_halffinal_crops/alpha/700/ir',
 	'zigbang_alpha_900_rgb': '../../data/zigbang_halffinal_crops/alpha/900/rgb',
 	'zigbang_alpha_900_ir': '../../data/zigbang_halffinal_crops/alpha/900/ir',
-	'zigbang_alpha_1100to1500_rgb': '../../data/zigbang_halffinal_crops/alpha/1100to1500/rgb',
-	'zigbang_alpha_1100to1500_ir': '../../data/zigbang_halffinal_crops/alpha/1100to1500/ir',
+	'zigbang_alpha_1100to1500_rgb': '../../data/zigbang_halffinal_crops/alpha/900/rgb',
+	'zigbang_alpha_1100to1500_ir': '../../data/zigbang_halffinal_crops/alpha/900/ir',
 	
-	'zigbang_alpha_zigzag_rgb': '../../data/zigbang_halffinal_crops/alpha/zigzag/rgb',
-	'zigbang_alpha_zigzag_ir': '../../data/zigbang_halffinal_crops/alpha/zigzag/ir',
+	'zigbang_alpha_zigzag_rgb': '../../data/zigbang_crop_faces/alpha/zigzag/rgb',
+	'zigbang_alpha_zigzag_ir': '../../data/zigbang_crop_faces/alpha/zigzag/ir',
 }
 
 model_paths = {

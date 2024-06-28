@@ -18,19 +18,18 @@ dataset_paths = {
 
 	'zigbang_alpha_300to900_rgb': '../../data/zigbang_halffinal_crops/alpha/300to900/rgb',
 	'zigbang_alpha_300to900_ir': '../../data/zigbang_halffinal_crops/alpha/300to900/ir',
-	'zigbang_alpha_300_rgb': '../../data/zigbang_halffinal_crops/alpha/300/rgb',
-	'zigbang_alpha_300_ir': '../../data/zigbang_halffinal_crops/alpha/300/ir',
-	'zigbang_alpha_500_rgb': '../../data/zigbang_halffinal_crops/alpha/500/rgb',
-	'zigbang_alpha_500_ir': '../../data/zigbang_halffinal_crops/alpha/500/ir',
-	'zigbang_alpha_700_rgb': '../../data/zigbang_halffinal_crops/alpha/700/rgb',
-	'zigbang_alpha_700_ir': '../../data/zigbang_halffinal_crops/alpha/700/ir',
-	'zigbang_alpha_900_rgb': '../../data/zigbang_halffinal_crops/alpha/900/rgb',
-	'zigbang_alpha_900_ir': '../../data/zigbang_halffinal_crops/alpha/900/ir',
-	'zigbang_alpha_1100to1500_rgb': '../../data/zigbang_halffinal_crops/alpha/1100to1500/rgb',
-	'zigbang_alpha_1100to1500_ir': '../../data/zigbang_halffinal_crops/alpha/1100to1500/ir',
-	
-	'zigbang_alpha_zigzag_rgb': '../../data/zigbang_halffinal_crops/alpha/zigzag/rgb',
-	'zigbang_alpha_zigzag_ir': '../../data/zigbang_halffinal_crops/alpha/zigzag/ir',
+	'zigbang_alpha_300_rgb': '../../data/zigbang_halffinal_crops/alpha/300to900/rgb',
+	'zigbang_alpha_300_ir': '../../data/zigbang_halffinal_crops/alpha/300to900/ir',
+	'zigbang_alpha_300_rgb': '../../data/zigbang_crop_faces/alpha/300mm/rgb',
+	'zigbang_alpha_300_ir': '../../data/zigbang_crop_faces/alpha/300mm/ir',
+	'zigbang_alpha_500_rgb': '../../data/zigbang_crop_faces/alpha/500mm/rgb',
+	'zigbang_alpha_500_ir': '../../data/zigbang_crop_faces/alpha/500mm/ir',
+	'zigbang_alpha_700_rgb': '../../data/zigbang_crop_faces/alpha/700mm/rgb',
+	'zigbang_alpha_700_ir': '../../data/zigbang_crop_faces/alpha/700mm/ir',
+	'zigbang_alpha_900_rgb': '../../data/zigbang_crop_faces/alpha/900mm/rgb',
+	'zigbang_alpha_900_ir': '../../data/zigbang_crop_faces/alpha/900mm/ir',
+	'zigbang_alpha_zigzag_rgb': '../../data/zigbang_crop_faces/alpha/zigzag/rgb',
+	'zigbang_alpha_zigzag_ir': '../../data/zigbang_crop_faces/alpha/zigzag/ir',
 }
 
 model_paths = {
