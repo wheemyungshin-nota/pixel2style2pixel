@@ -31,25 +31,12 @@ dataset_paths = {
 
 	'zigbang_with_margin_beta_all_rgb': '../../data/zigbang_crop_faces_with_margin/beta/all/rgb',
 	'zigbang_with_margin_beta_all_ir': '../../data/zigbang_crop_faces_with_margin/beta/all/ir',
-	'zigbang_with_margin_beta_400_rgb': '../../data/zigbang_crop_faces_with_margin/beta/400mm/rgb',
-	'zigbang_with_margin_beta_400_ir': '../../data/zigbang_crop_faces_with_margin/beta/400mm/ir',
-	'zigbang_with_margin_beta_500_rgb': '../../data/zigbang_crop_faces_with_margin/beta/500mm/rgb',
-	'zigbang_with_margin_beta_500_ir': '../../data/zigbang_crop_faces_with_margin/beta/500mm/ir',
-	'zigbang_with_margin_beta_600_rgb': '../../data/zigbang_crop_faces_with_margin/beta/600mm/rgb',
-	'zigbang_with_margin_beta_600_ir': '../../data/zigbang_crop_faces_with_margin/beta/600mm/ir',
-
-	'zigbang_with_margin_alpha_all_rgb': '../../data/zigbang_crop_faces_with_margin/alpha/all/rgb',
-	'zigbang_with_margin_alpha_all_ir': '../../data/zigbang_crop_faces_with_margin/alpha/all/ir',
-	'zigbang_with_margin_alpha_300_rgb': '../../data/zigbang_crop_faces_with_margin/alpha/300mm/rgb',
-	'zigbang_with_margin_alpha_300_ir': '../../data/zigbang_crop_faces_with_margin/alpha/300mm/ir',
-	'zigbang_with_margin_alpha_500_rgb': '../../data/zigbang_crop_faces_with_margin/alpha/500mm/rgb',
-	'zigbang_with_margin_alpha_500_ir': '../../data/zigbang_crop_faces_with_margin/alpha/500mm/ir',
-	'zigbang_with_margin_alpha_700_rgb': '../../data/zigbang_crop_faces_with_margin/alpha/700mm/rgb',
-	'zigbang_with_margin_alpha_700_ir': '../../data/zigbang_crop_faces_with_margin/alpha/700mm/ir',
-	'zigbang_with_margin_alpha_900_rgb': '../../data/zigbang_crop_faces_with_margin/alpha/900mm/rgb',
-	'zigbang_with_margin_alpha_900_ir': '../../data/zigbang_crop_faces_with_margin/alpha/900mm/ir',
-	'zigbang_with_margin_alpha_zigzag_rgb': '../../data/zigbang_crop_faces_with_margin/alpha/zigzag/rgb',
-	'zigbang_with_margin_alpha_zigzag_ir': '../../data/zigbang_crop_faces_with_margin/alpha/zigzag/ir',
+	'zigbang_crop_faces_with_margin_beta_400_rgb': '../../data/zigbang_crop_faces_with_margin/beta/400mm/rgb',
+	'zigbang_crop_faces_with_margin_beta_400_ir': '../../data/zigbang_crop_faces_with_margin/beta/400mm/ir',
+	'zigbang_crop_faces_with_margin_beta_500_rgb': '../../data/zigbang_crop_faces_with_margin/beta/500mm/rgb',
+	'zigbang_crop_faces_with_margin_beta_500_ir': '../../data/zigbang_crop_faces_with_margin/beta/500mm/ir',
+	'zigbang_crop_faces_with_margin_beta_600_rgb': '../../data/zigbang_crop_faces_with_margin/beta/600mm/rgb',
+	'zigbang_crop_faces_with_margin_beta_600_ir': '../../data/zigbang_crop_faces_with_margin/beta/600mm/ir',
 }
 
 model_paths = {
@@ -60,7 +47,5 @@ model_paths = {
 	'mtcnn_rnet': 'pretrained_models/mtcnn/rnet.npy',
 	'mtcnn_onet': 'pretrained_models/mtcnn/onet.npy',
 	'shape_predictor': 'shape_predictor_68_face_landmarks.dat',
-	'moco': 'pretrained_models/moco_v2_800ep_pretrain.pth.tar',
-	
-	'mygan_alpha': '../stylegan2-pytorch/checkpoint/010000.pt',
+	'moco': 'pretrained_models/moco_v2_800ep_pretrain.pth.tar'
 }
